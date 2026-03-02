@@ -9,17 +9,12 @@ export default function Footer() {
           
           {/* Brand */}
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '1rem' }}>
-              <div style={{
-                width: '40px', height: '40px', background: 'var(--gold-500)',
-                borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center',
-                fontFamily: 'Playfair Display, serif', fontWeight: '900', fontSize: '1rem', color: 'var(--green-950)',
-              }}>K</div>
-              <div>
-                <div style={{ fontFamily: 'Playfair Display, serif', fontWeight: '700', fontSize: '1.1rem', color: 'white' }}>
-                  KOPA<span style={{ color: 'var(--gold-500)' }}>360</span>
-                </div>
-              </div>
+            <div style={{ marginBottom: '1rem' }}>
+              <img
+                src="/images_1772210729292.jpeg"
+                alt="Kopa360 Logo"
+                style={{ height: '56px', width: 'auto', objectFit: 'contain', borderRadius: '6px' }}
+              />
             </div>
             <p style={{ color: 'rgba(255,255,255,0.5)', fontSize: '0.875rem', lineHeight: '1.7', marginBottom: '1.5rem' }}>
               Reigniting the future — one corps member at a time. Building a generation of impactful, skilled, and connected Nigerians.
