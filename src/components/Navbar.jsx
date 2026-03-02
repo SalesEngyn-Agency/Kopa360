@@ -41,28 +41,17 @@ export default function Navbar() {
       <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 1.5rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           {/* Logo */}
-          <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-            <div style={{
-              width: '42px',
-              height: '42px',
-              background: 'var(--gold-500)',
-              borderRadius: '8px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontFamily: 'Playfair Display, serif',
-              fontWeight: '900',
-              fontSize: '1rem',
-              color: 'var(--green-950)',
-            }}>K</div>
-            <div>
-              <div style={{ fontFamily: 'Playfair Display, serif', fontWeight: '700', fontSize: '1.15rem', color: 'white', lineHeight: 1 }}>
-                KOPA<span style={{ color: 'var(--gold-500)' }}>360</span>
-              </div>
-              <div style={{ fontSize: '0.6rem', color: 'rgba(255,255,255,0.5)', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
-                Reigniting the Future
-              </div>
-            </div>
+          <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
+            <img
+              src="/images_1772210729292.jpeg"
+              alt="Kopa360 Logo"
+              style={{
+                height: '52px',
+                width: 'auto',
+                objectFit: 'contain',
+                borderRadius: '6px',
+              }}
+            />
           </Link>
 
           {/* Desktop Nav */}
@@ -174,4 +163,5 @@ export default function Navbar() {
       `}</style>
     </nav>
   )
-}
+                        }
+            
